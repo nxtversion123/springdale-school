@@ -1,38 +1,122 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* Navbar.css */
+@media (max-width: 1024px) {
+  .navbar-brand {
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5rem; /* Larger text size */
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar-brand {
+  color: #f8f9fa; /* Suggested color for text on dark background */
+}
+
+.nav-link {
+  color: #f8f9fa; /* Suggested color for text on dark background */
+}
+.navbar-toggler {
+    order: 0; /* Make sure the toggle button is below */
+    border: 2px solid white; /* White border around the button */
+    color: white; /* Button text color */
+    background-color: transparent; /* Button background color */
+    z-index: 1050; /* Ensure it’s on top of other elements */
+  }
+  @media (max-width: 767px) {
+  .navbar-brand {
+    order: 0; /* Make sure the brand is on top */
+    margin-bottom: 10px; /* Space between brand and toggle button */
+  }}
+.navbar {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center horizontally */
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.nav-link.active {
+  font-weight: bold;
+  color: #ffc107; /* Highlight active link with a distinct color */
+}
+/* Navbar container
+.navbar {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; /* Center content horizontally */
+/* } */
+
+/* Navbar brand and toggler positioning */
+@media (max-width: 767px) {
+  .navbar-brand {
+    order: 0; /* Place brand on top */
+    margin-bottom: 10px; /* Space between brand and toggle button */
+  }
+
+  .navbar-toggler {
+    order: 1; /* Place toggler below brand */
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+    z-index: 1050;
+    margin-left: auto; /* Align to the left when space available */
+    margin-right: auto; /* Center the toggler when no space is left */
+  }
+
+  .navbar-collapse {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    width: 100%; /* Full width to ensure correct centering */
+  }
+/* this will set the nav items to center below the school Name when screen size is small like tab/mobile */
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center nav items horizontally */
+    width: 100%; /* Full width to ensure correct centering */
+  }
+}
+
+/* Navbar toggler icon styling */
+.navbar-toggler-icon {
+  font-size: 1.5rem; /* Larger icon size */
+  color: white; /* Icon color */
+  order:3
+}
+
+
+ 
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+  .navbar-brand {
+    margin-right: auto; /* Add some space on the right of the brand */
+  }
+
+  .navbar-toggler {
+    position: absolute; /* Ensure it is positioned within the normal flow */
+    margin: 0; /* Remove any extra margins */
+    align-self: flex-start; /* Align toggle button parallel to the brand */
+  }
+}
+
+/* Navbar collapsible content */
+.navbar-collapse {
+  flex-grow: 1; /* Allow it to grow and fill available space */
+}
+
+/* css for image logo of school */
+
+
+.button-group{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+@media (min-width: 283px){
+.academics{ background-position: auto;
+  padding: 10px;
+}  }  
