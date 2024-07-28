@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/springdale-school/static/css/main.0ffbb6d3.css",
+    "main.js": "/springdale-school/static/js/main.cf0c3498.js",
+    "static/js/453.e4890f5e.chunk.js": "/springdale-school/static/js/453.e4890f5e.chunk.js",
+    "index.html": "/springdale-school/index.html",
+    "main.0ffbb6d3.css.map": "/springdale-school/static/css/main.0ffbb6d3.css.map",
+    "main.cf0c3498.js.map": "/springdale-school/static/js/main.cf0c3498.js.map",
+    "453.e4890f5e.chunk.js.map": "/springdale-school/static/js/453.e4890f5e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ffbb6d3.css",
+    "static/js/main.cf0c3498.js"
+  ]
+}
