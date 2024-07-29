@@ -1,5 +1,6 @@
 import React from 'react'
 import Carousel from '../components/Carousel';
+import {Link} from "react-router-dom";
 
 const Home = () => {
 
@@ -57,55 +58,55 @@ const Home = () => {
               type="button"
               className="btn btn-danger d-inline-block mx-2 my-4"
             >
-              <a href="/about">About Us</a>
+              <Link to="/about">About Us</Link>
             </button>
             <button
               type="button"
               className="btn btn-danger d-inline-block mx-2 my-4"
             >
-              <a href="/addmissions">Addmissions</a>
+              <Link to="/addmissions">Addmissions</Link>
             </button>
             <button
               type="button"
               className="btn btn-danger d-inline-block mx-2 my-4"
             >
-              <a href="/academics">Academics</a>
+              <Link to="/academics">Academics</Link>
             </button>
             <button
               type="button"
               className="btn btn-danger d-inline-block mx-2 my-4"
             >
-              <a href="/department">Department</a>
+              <Link to="/department">Department</Link>
             </button>
             <button
               type="button"
               className="btn btn-danger d-inline-block mx-2 my-4"
             >
-              <a href="/calender">Calender</a>
+              <Link to="/calender">Calender</Link>
             </button>
             <button
               type="button"
               className="btn btn-danger d-inline-block mx-2 my-4"
             >
-              <a href="/contact">Contact Us</a>
+              <Link to="/contact">Contact Us</Link>
             </button>
             <button
               type="button"
               className="btn btn-danger d-inline-block mx-2 my-4"
             >
-              <a href="/faculty">Faculty</a>
+              <Link to="/faculty">Faculty</Link>
             </button>
             <button
               type="button"
               className="btn btn-danger d-inline-block mx-2 my-4"
             >
-              <a href="/library">Library</a>
+              <Link to="/library">Library</Link>
             </button>
             <button
               type="button"
               className="btn btn-danger d-inline-block mx-2 my-4"
             >
-              <a href="/gallery">Gallery</a>
+              <Link to="/gallery">Gallery</Link>
             </button>
             <button
               type="button"
